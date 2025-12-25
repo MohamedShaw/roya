@@ -13,6 +13,8 @@ module.exports = {
           '@typings': './src/types',
           '@utils': './src/utils',
           '@data': './src/data',
+          "@hoc":"./src/hoc"
+          
         },
       },
     ],

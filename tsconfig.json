@@ -15,7 +15,10 @@
       "@utils": ["src/utils"],
       "@utils/*": ["src/utils/*"],
       "@data": ["src/data"],
-      "@data/*": ["src/data/*"]
+      "@data/*": ["src/data/*"],
+      "@hoc": ["src/hoc"],
+      "@hoc/*": ["src/hoc/*"],
+      
     }
   },
   "include": ["**/*.ts", "**/*.tsx"],

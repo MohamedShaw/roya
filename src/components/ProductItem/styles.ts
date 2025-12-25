@@ -1,0 +1,162 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  gestureContainer: {
+    marginBottom: 12,
+  },
+  container: {
+    backgroundColor: '#FFFFFF',
+    borderRadius: 16,
+    padding: 12,
+    borderWidth: 0,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 8,
+    elevation: 3,
+    overflow: 'hidden',
+    flexDirection: 'row',
+  },
+  selected: {
+    borderWidth: 2,
+    borderColor: '#4CAF50',
+    backgroundColor: '#F1F8F4',
+    shadowColor: '#4CAF50',
+    shadowOpacity: 0.2,
+  },
+
+  imageContainer: {
+    width: 120,
+    height: 120,
+    borderRadius: 12,
+    overflow: 'hidden',
+    marginRight: 12,
+    backgroundColor: '#FFF5F0',
+  },
+  image: {
+    width: 120,
+    height: 120,
+    borderRadius: 12,
+  },
+  imageWrapper: {
+    width: 120,
+    height: 120,
+    borderRadius: 12,
+  },
+  shimmerContainer: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    width: 120,
+    height: 120,
+    zIndex: 1,
+  },
+  content: {
+    flex: 1,
+    width: '100%',
+    justifyContent: 'space-between',
+  },
+  header: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'flex-start',
+    marginBottom: 8,
+  },
+  titleContainer: {
+    flex: 1,
+    marginRight: 8,
+  },
+  title: {
+    fontSize: 16,
+    fontWeight: '700',
+    color: '#333333',
+    marginBottom: 4,
+    lineHeight: 20,
+  },
+  price: {
+    fontSize: 18,
+    fontWeight: '800',
+    color: '#FF6B35', 
+  },
+  checkboxContainer: {
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  checkbox: {
+    width: 24,
+    height: 24,
+    borderWidth: 2,
+    borderColor: '#CCCCCC',
+    borderRadius: 6,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#FFFFFF',
+  },
+  checkboxChecked: {
+    borderColor: '#4CAF50',
+    backgroundColor: '#4CAF50',
+  },
+  checkmark: {
+    width: 24,
+    height: 24,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  checkmarkInner: {
+    width: 6,
+    height: 10,
+    borderColor: '#FFFFFF',
+    borderWidth: 2,
+    borderTopWidth: 0,
+    borderLeftWidth: 0,
+    transform: [{ rotate: '45deg' }],
+  },
+  description: {
+    fontSize: 13,
+    color: '#666666',
+    lineHeight: 18,
+    marginBottom: 8,
+  },
+  tagsContainer: {
+    maxHeight: 30,
+    marginTop: 4,
+  },
+  tagsScrollContainer: {
+    flex: 1,
+  },
+  tagsScrollContent: {
+    alignItems: 'center',
+    paddingRight: 4,
+  },
+  tag: {
+    backgroundColor: '#FFF5F0', 
+    paddingHorizontal: 10,
+    paddingVertical: 4,
+    borderRadius: 12,
+    marginRight: 6,
+    borderWidth: 1,
+    borderColor: '#FFB399',
+  },
+  tagText: {
+    fontSize: 11,
+    color: '#FF6B35', 
+    fontWeight: '600',
+  },
+  shimmerWrapper: {
+    backgroundColor: '#E8E8E8',
+    overflow: 'hidden',
+    position: 'relative',
+  },
+  shimmer: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    width: '100%',
+    height: '100%',
+    backgroundColor: '#F5F5F5',
+    opacity: 0.6,
+  },
+});
